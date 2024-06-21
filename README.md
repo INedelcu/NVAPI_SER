@@ -1,4 +1,4 @@
-This Unity plugin exports NVAPI functionality to enable Shader Execution Reordering in ray tracing shaders.
+This Unity plugin exports NVAPI functionality to enable [Shader Execution Reordering](https://d29g4g2dyqv443.cloudfront.net/sites/default/files/akamai/gameworks%2Fser-whitepaper.pdf) in ray tracing shaders.
 
 To build the plugin (NVAPIPlugin.dll), you need to download NVAPI from https://developer.nvidia.com/gameworksdownload#?search=nvapi and copy NVAPI contents into the plugin Visual Studio folder:
 
