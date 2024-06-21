@@ -8,3 +8,5 @@ To build the plugin (NVAPIPlugin.dll), you need to download NVAPI from https://d
 4. Copy the result NVAPIPlugin.dll from its output location to a Unity project in a Assets/Plugins folder.
 
 Test it with your ray tracing shaders. I made a test in https://github.com/INedelcu/PathTracingDemo in nvidia-ser branch. Some hlsl header files from NVAPI need to be present in Assets/Shaders/NVAPI folder: nvHLSLExtns.h, nvHLSLExtnsInternal.h and nvShaderExtnEnums.h.
+
+Hardware requirements: NVIDIA RTX 4000 series+ GPU.
